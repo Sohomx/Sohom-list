@@ -90,6 +90,18 @@
   width: 45%;
 }
 
+.btn {
+  display: block;
+  width: 150px;
+  padding: 1rem;
+  border-radius: 50px;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
@@ -109,8 +121,9 @@
 }
 
 .logo {
-  height: 1em;
+  height: 10em;
   margin-left: 0.5rem;
+  display: flex;
 }
 
 @media (max-width: 600px) {
